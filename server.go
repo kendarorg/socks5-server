@@ -12,6 +12,7 @@ type params struct {
 	User     string `env:"PROXY_USER" envDefault:""`
 	Password string `env:"PROXY_PASSWORD" envDefault:""`
 	Port     string `env:"PROXY_PORT" envDefault:"1080"`
+	Dns      string `env:"PROXY_DNS" envDefault:""`
 }
 
 func main() {
